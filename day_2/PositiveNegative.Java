@@ -1,4 +1,6 @@
+package day_2;
 import java.util.scanner;
+
 
 
    public class PositiveNegative{ 
