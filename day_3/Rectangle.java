@@ -1,26 +1,28 @@
 public class Rectangle {
 
-   private double length;
-   private double breadth;
-   private double area;
-   private double perimeter;
-   
-   Rectangle(double l, double b){
-length = l;
-breadth = b;
+    private double length;
+    private double breadth;
+    private double area;
+    private double perimeter;
 
+    Rectangle(double l, double b) {
+        length = l;
+        breadth = b;
+    }
 
-   }
+    void areaOfRectangle() {
+        area = length * breadth;
+        System.out.println("Area of rectangle is " + area);
+    }
 
-   void areaOfRectangle(){
-    area = length * breadth;
-    System.out.println("area of rectangle is " + area);
-   }
+    void perimeterOfRectangle() {
+        perimeter = 2 * (length + breadth);
+        System.out.println("Perimeter of rectangle is " + perimeter);
+    }
 
-   void perimeterOfRectangle(){
-    perimeter = 2 * (length + breadth);
-    System.out.println("perimeter of rectangle " + perimeter);
-    
-   }
-
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle(5, 3);
+        r.areaOfRectangle();
+        r.perimeterOfRectangle();
+    }
 }
