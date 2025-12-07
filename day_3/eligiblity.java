@@ -1,6 +1,6 @@
-package day_3;
 
-public class eligiblity {
+
+public class Eligiblity {
     public static void main (String []args)
     {
         int age = 2;

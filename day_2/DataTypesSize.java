@@ -1,4 +1,4 @@
-package day_2;
+
 public class DataTypesSize {
     public static void main(String[] args) {
 
