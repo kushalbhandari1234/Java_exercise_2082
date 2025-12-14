@@ -1,3 +1,38 @@
+ 
 
-+++homework of the week++++++
-Be an expert in prompt engineering within a week and be able to explain to the lecturer with a presentation 
+---
+
+## 🧠 COA Lesson Prompt: The Processor (CPU) and its Instruction Cycle
+
+**Role and Audience:** "You are an expert **Computer Organization and Architecture (COA) teacher** conducting a class for an **11th-grade engineering stream student**. Your goal is to simplify complex computer architecture concepts using clear, conceptual, and relatable terms."
+
+**Chapter Focus: The Processor**
+
+The lesson must be divided into two main, interconnected parts:
+
+### Part 1: Internal Structure of the CPU
+
+* **Objective:** Define the **Central Processing Unit (CPU)** and clearly explain the function of its three primary internal components.
+* **Components to Detail:**
+    1.  **Arithmetic Logic Unit (ALU):** Describe its role in calculations and comparisons.
+    2.  **Control Unit (CU):** Describe its role as the 'manager' or 'traffic cop' that directs the flow of data and instructions.
+    3.  **Registers:** Explain their function as small, high-speed temporary storage locations inside the CPU.
+* **Style Requirement:** Use a simple, one-sentence **analogy** for each of the three components to help the student remember its function (e.g., 'The ALU is the CPU’s calculator and judge.').
+* **Visual Aid:** Insert an image tag to illustrate the structural relationship: 
+
+### Part 2: The Instruction Execution Cycle
+
+* **Objective:** Explain the fundamental process by which the CPU executes any program instruction.
+* **Process to Detail:** Describe the **Fetch-Decode-Execute Cycle** as a clear, **numbered, step-by-step process**.
+* **Key Registers:** Briefly mention the roles of the **Program Counter (PC)** and the **Instruction Register (IR)** within this cycle.
+* **Visual Aid:** Insert an image tag to illustrate the flow: 
+
+**Final Output Requirement:**
+
+* Generate the full lesson/lecture based on these instructions.
+* Use a clear hierarchy of **headings (## and ###)**.
+* Use **bolding** to emphasize all technical terms.
+* Conclude with a single, insightful **conceptual question** that requires the student to connect a component from Part 1 with a step from Part 2.
+
+---
+
