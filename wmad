@@ -1,0 +1,16 @@
+1) number guessing game 
+create a guess class with:
+->secret number initialized in constructor 
+->method to check guess using if-else 
+(repeat gueessing using while loop until correct.)
+->create object 
+
+2)Employee salary system 
+
+
+                                 /->name basic salary 
+create an employee class with ----> constructor
+                                  \->method to calculate bonus
+                                            ->if salary >3000(bonus=10%)
+                                             ->if else bonus = 5%
+                                             -> use if else and create  object 
