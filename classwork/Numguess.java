@@ -1,11 +1,13 @@
 import java.util.Scanner;
-public class Numberguessing {
+public class Numguess {
    int num;
    int num2;
 
-   Numberguessing(int num){
+   
+Numguess(int num){
     this.num = num;
    }
+   
    
    void check(){
        Scanner input = new Scanner(System.in);
@@ -15,22 +17,29 @@ public class Numberguessing {
         num2 = input.nextInt();
 
         if(num2>num){
-            System.out.println("Your number " + num2 + " is greater");
-        }
+            System.out.println("number is greeater");
+      
+          }
+
 
         else if(num2<num){
-            System.out.println("Your number " + num2 + " is smaller");
-        }
+            System.out.println(" number   is smaler");
       
-        else if(num2 == num){
+          }
+
+
+
+      
+        else{
             System.out.println("Your guess is correct ");
             break; 
         }
      }
+     input.close(); 
    }
 
-   public static void main(String[] aargs){
-     Numberguessing ng = new Numberguessing(5);
+   public static void main(String[] args){
+     Numguess ng = new Numguess(2);
      ng.check();
    }
 }
