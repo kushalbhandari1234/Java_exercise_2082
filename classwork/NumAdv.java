@@ -5,10 +5,10 @@ class NumAdv {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int secretNumber = 600;
+        int secretNumber = 30;
         int guess, attempts = 0;
 
-        System.out.println("Guess the number (0 to 1000)");
+        System.out.println("number is from 1-100");
 
         while (true) {
             guess = sc.nextInt();
@@ -20,20 +20,36 @@ class NumAdv {
                 break;
             }
 
-            else if (guess > secretNumber + 800) {
+            else if (guess >  55) {
                 System.out.println("your number is miles away");
                 
             }
 
-            else if (guess < secretNumber -400 ) {
-                System.out.println("your number is much more away");
+            else if (guess > 35 ) {
+                System.out.println("you are  much closer");
                 
             }
+
             if (guess < secretNumber) {
-                System.out.println("Too low");
-            } else {
-                System.out.println("Too high");
+                System.out.println("smaller number");
+            } 
+            
+            
+            else {
+                System.out.println("greater number");
             }
+
+            
+         if (guess < 20 ) {
+                System.out.println("your number is so much smaller ");
+                
+            }
+
+
+        else if (guess < 25) {
+            System.out.println("you are much closer ");
+            
+        }
         }
 
         sc.close();
