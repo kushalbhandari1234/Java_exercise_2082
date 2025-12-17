@@ -17,7 +17,7 @@ Numguess(int num){
         if(num2 > num + 5){
             System.out.println("number is much greater");
         }
-        else if(num2 > num){
+        else if(num2 > num ){
             System.out.println("number is greater");
         }
         else if(num2 < num - 5){
