@@ -5,7 +5,7 @@ public class Grade {
     
     public static void main (String []args)
     {
-        int marks = 85;
+        int marks = 155;
         if (marks >=90){
 
             System.out.println("A grade");
@@ -15,7 +15,7 @@ public class Grade {
             System.out.println("B grade");
         }
 
-        else if (marks >=70){
+        else if (marks >=70){ 
             System.out.println("C grade");
         }
 

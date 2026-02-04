@@ -21,7 +21,7 @@ class NumAdv {
             }
 
             else if (guess >  55) {
-                System.out.println("your number is miles away");
+                System.out.println("your number is out of range ");
                 
             }
 
@@ -41,14 +41,20 @@ class NumAdv {
 
             
          if (guess < 20 ) {
-                System.out.println("your number is so much smaller ");
+                System.out.println("your number is out of range ");
                 
             }
-
+else if (guess < 20) {
+    System.out.println("smaller number");
+}
 
         else if (guess < 25) {
             System.out.println("you are much closer ");
             
+        }
+
+        else if (guess <= 29 ) {
+            System.out.println("you are a bit away ");
         }
         }
 
